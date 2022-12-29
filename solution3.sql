@@ -1,3 +1,4 @@
+--3. What was the first item from the menu purchased by each customer?
 WITH temp_table AS
 (
    SELECT customer_id, order_date, product_name,
