@@ -1,3 +1,4 @@
+-- 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 with temp as(select s.customer_id,m.product_name, case
 when s.product_id=1 then sum(m.price)*2*10
 else sum(m.price)*10
