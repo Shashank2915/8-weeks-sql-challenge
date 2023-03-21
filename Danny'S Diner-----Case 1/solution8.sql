@@ -1,4 +1,4 @@
--- 8. What is the total items and amount spent for each member before they became a member ?
+--8. What is the total items and amount spent for each member before they became a member ?
 select s.customer_id,
 COUNT(distinct m.product_id) as COUNT, sum(m.price) as PRICE
 from sales as s 
