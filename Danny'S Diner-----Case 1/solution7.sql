@@ -13,3 +13,15 @@ from temp as t
 join menu as m
 on t.product_id=m.product_id
 where rank=1;
+
+--Answer:
+--| customer_id | product_name  | order_date |
+--| ----------- | ---------- |----------  |
+--| A           | 2021-01-01 |  sushi        |
+--| A           | 2021-01-01 |  curry        |
+--| B           | 2021-01-04 |  sushi        |
+
+--- Customer A’s last order before becoming a member is sushi and curry.
+--- Whereas for Customer B, it's sushi. That must have been a real good sushi!
+
+--
