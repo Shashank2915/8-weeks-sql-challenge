@@ -13,3 +13,14 @@ from temp as t
 join menu as m
 on t.product_id=m.product_id
 where rank=1;
+
+--Answer:
+--| customer_id | product_name | order_date |
+--| ----------- | ---------- |----------  |
+--| A           | 2021-01-07 | curry        |
+--| B           | 2021-01-11 | sushi        |
+
+--- Customer A's first order as member is curry.
+--- Customer B's first order as member is sushi.
+
+--
