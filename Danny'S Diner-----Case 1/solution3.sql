@@ -13,3 +13,17 @@ SELECT customer_id, product_name
 FROM temp_table
 WHERE rank = 1
 GROUP BY customer_id, product_name;
+
+--Answer:
+--| customer_id | product_name | 
+--| ----------- | ----------- |
+--| A           | curry        | 
+--| A           | sushi        | 
+--| B           | curry        | 
+--| C           | ramen        |
+
+--- Customer A's first orders are curry and sushi.
+--- Customer B's first order is curry.
+--- Customer C's first order is ramen.
+
+--
