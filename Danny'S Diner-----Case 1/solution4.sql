@@ -7,8 +7,8 @@ order by number_of_times desc;
 
 --Answer:
 --| most_purchased | product_name | 
---| ----------- | ----------- |
---| 8       | ramen |
+--| -----------    | -----------  |
+--| 8              | ramen        |
 
 
 --- Most purchased item on the menu is ramen which is 8 times. Yummy!
