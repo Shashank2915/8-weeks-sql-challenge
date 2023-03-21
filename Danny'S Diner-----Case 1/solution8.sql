@@ -9,3 +9,15 @@ on s.customer_id=mem.customer_id
 where s.order_date<mem.join_date
 group by s.customer_id
 order by s.customer_id;
+
+--Answer:
+--| customer_id | COUNT | PRICE |
+--| ----------- | ------|-------|
+--| A           | 2	    |  25   |
+--| B           | 2     |  40   |
+
+--Before becoming members,
+--- Customer A spent $ 25 on 2 items.
+--- Customer B spent $40 on 2 items.
+
+--
